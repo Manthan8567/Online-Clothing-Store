@@ -14,7 +14,9 @@
 
 ## Demo:
 
-https://github.com/Manthan8567/Online_Clothing_Store/assets/124721292/d40f602a-07c8-4f32-8097-ce711547cd40
+https://github.com/Manthan8567/Online_Clothing_Store/assets/124721292/910b0f2f-b59d-40b8-96a7-d7241dc502d6
+
+
 
 
 
