@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+    <!-- Icons Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="index.html">Login</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="login">
+        <img src="./img/login-bg.png" alt="image" class="login_bg">
+        <form action="" class="login_form">
+           <h1 class="login_title">Login</h1>
+           <div class="login_inputs">
+              <div class="login_box">
+                 <input type="text" placeholder="Email ID" class="login_input" id="username">
+                 <i class="ri-mail-fill"></i>
+              </div>
+
+              <div class="login_box">
+                 <input type="password" placeholder="Password" class="login_input" id="password">
+                 <i class="ri-lock-2-fill"></i>
+              </div>
+           </div>
+
+           <div class="login_check">
+              <div class="login_check-box">
+                 <input type="checkbox" class="login_check-input" id="user-check">
+                 <label for="user-check" class="login_check-label">Remember me</label>
+              </div>
+           </div>
+
+           <button type="submit" class="login_button" onclick="func()">Login</button>
+        </form>
+     </div>
+    
+    <script src="./js/Login.js"></script>
+</body>
+</html>

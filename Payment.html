@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./css/payment.css">
+
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a class="active" href="Payment.html">Payment</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="payment-form">
+        <h2>Payment Details</h2>
+        <form onsubmit="return validateForm()">
+
+            <div class="form-group">
+                <label for="cardName">Name on Card</label>
+                <input type="text" id="cardName" name="cardName">
+                <span id="cardNameError" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" name="cardNumber">
+                <span id="cardNumberError" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY">
+                <span id="expiryDateError" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv">
+                <span id="cvvError" class="error"></span>
+            </div>
+            
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+
+    <script src="./js/payment.js"></script>
+</body>
+</html>
